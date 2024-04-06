@@ -69,7 +69,7 @@ export default {
         },
         closeModal(){
             this.open = false;
-            this.updateModal = false;
+            // this.updateModal = false;
         },
         saveClient() {
             var data = {
@@ -113,7 +113,7 @@ export default {
                         name: "",
                         balance: null
                     };
-                    this.updateModal = false;
+                    // this.updateModal = false;
                 });
         }
     },
